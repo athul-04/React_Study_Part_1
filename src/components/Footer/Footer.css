@@ -1,0 +1,16 @@
+.footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:10;
+    background-color: #e51313;
+    padding: 10px;
+    text-align: center;
+}
+.footer-icon{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

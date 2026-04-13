@@ -1,0 +1,41 @@
+.image {
+    position: relative;
+    width: 60%;
+    height: 195px; /* IMPORTANT: give it height */
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+}
+.out-of-stock {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:20px;
+    left:-5px;
+    transform: rotate(-45deg);
+    background-color: rgb(255, 0, 0);
+    overflow: hidden;
+    border-radius: 5px;
+    
+}
+
+.in-stock {
+    color: green;
+    visibility: hidden;
+}
+.product {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    margiN: 1.5% 0;
+}
+
+@media screen and (max-width: 768px) {
+    
+   }

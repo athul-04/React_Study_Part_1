@@ -1,0 +1,19 @@
+.header-icon{
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
+.items{
+    padding:0.5rem
+}
+
+@media screen and (max-width: 768px) {
+    .header-icon {
+        flex-direction: column;
+    }
+
+    .items {
+        padding: 0.25rem;
+    }
+}
